@@ -7,7 +7,7 @@ Retrieves given database entries
 Retrieves given database entries.
 }
 \usage{
-keggGet(dbentries, option = c("aaseq", "ntseq", "mol", "kcf", 
+keggGet(dbentriƒes, option = c("aaseq", "ntseq", "mol", "kcf", 
     "image", "kgml"))
 }
 %- maybe also 'usage' for other objects documented here.
@@ -55,6 +55,7 @@ keggGet(c("hsa:10458", "ece:Z5100"), "aaseq") ## retrieves amino acid sequences
 png <- keggGet("hsa05130", "image") ## retrieves the image file of a
                                     ## pathway map
 t <- tempfile()
+library(png)
 writePNG(png, t)
 keggGet("hsa05130", "kgml")
 
