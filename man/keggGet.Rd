@@ -7,7 +7,7 @@ Retrieves given database entries
 Retrieves given database entries.
 }
 \usage{
-keggGet(dbentriƒes, option = c("aaseq", "ntseq", "mol", "kcf", 
+keggGet(dbentries, option = c("aaseq", "ntseq", "mol", "kcf", 
     "image", "kgml"))
 }
 %- maybe also 'usage' for other objects documented here.
